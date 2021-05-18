@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Benson</title>
+    <style>
+
+body {
+  height: 100%;
+  background-color: cyan;
+  background-image: url("images/icons.jpg");
+  background-size:
+}
+
+body {
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+}
+
+div {
+  cursor: pointer;
+  margin: 5px;
+  padding: 3px;
+  font-size: 10vmin;
+  font-weight: 300;
+  transition: font-weight 300ms ease-in-out;
+  background-color: cyan;
+  font-style: normal;
+  font-color: red;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  color: red;
+}
+div.edu {
+  cursor: pointer;
+  margin: inherit;
+  padding: inherit;
+  font-size: 5vmin;
+  font-weight: 300;
+  transition: font-weight 300ms ease-in-out;
+  background-color: cyan;
+  background-size: 300px;
+  font-style: normal;
+  color: red;
+
+
+}
+p{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+div:hover {
+  font-weight: 900;
+}
+.center {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: {
+    color: cyan;
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  }
+}
+
+.center__text {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120px;
+  text-transform: uppercase;
+}
+
+.glitch {
+  position: relative;
+  color: white;
+  mix-blend-mode: lighten;
+
+  &:before,
+  &:after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      width: 100%;
+      background: cyan;
+      clip: rect(0, 0, 0, 0);
+  }
+
+  &:before {
+      left: -1px;
+      text-shadow: 1px 0 rgba(red,0.7);
+  }
+
+  &:after {
+      left: 1px;
+      text-shadow: -1px 0 rgba(blue,0.7);
+  }
+
+  &:hover {
+    &:before {
+      text-shadow: 4px 0 rgba(red,0.7);
+      animation: glitch-loop-1 0.8s infinite ease-in-out alternate-reverse;
+    }
+    &:after {
+      text-shadow: -5px 0 rgba(blue,0.7);
+      animation: glitch-loop-2 0.8s infinite ease-in-out alternate-reverse;
+    }
+  }
+}
+
+<!--@keyframes glitch-loop-1 {
+  0% { clip: rect(36px, 9999px, 9px, 0) }
+  25% { clip: rect(25px, 9999px, 99px, 0) }
+  50% { clip: rect(50px, 9999px, 102px, 0) }
+  75% { clip: rect(30px, 9999px, 92px, 0) }
+  100% { clip: rect(91px, 9999px, 98px, 0) }
+}
+
+@keyframes glitch-loop-2 {
+  0% { top: -1px; left: 1px; clip: rect(65px, 9999px, 119px, 0) }
+  25% { top: -6px; left: 4px; clip: rect(79px, 9999px, 19px, 0) }
+  50% { top: -3px; left: 2px; clip: rect(68px, 9999px, 11px, 0) }
+  75% { top: 0px; left: -4px; clip: rect(95px, 9999px, 53px, 0) }
+  100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
+}-->
+p.one {
+  background-color:cyan;
+  color: red;
+  font-size: 45pt;
+}
+ p.two{
+   background-color: cyan;
+   color:red;}
+
+ p.three{
+   background-color: cyan;
+   color:red;
+ }
+ p.four{
+   background-color: cyan;
+   color:red;
+ }
+
+    </style>
+  </head>
+  <body>
+
+    <a href="https://instagram.com/itsBenjyy_"><img src="images/Instagram.png" width="50pt" height="50pt" align="bottom"></a>
+    <a href="https://github.com/fslnhv"><img src="images/Github.png" width="50pt" height="50pt"  align="bottom"></a>
+    <a href="https://facebook.com/Bensongerald"><img src="images/Facebook" width="50pt" height="50pt"  align="bottom"></a>
+    <a href="https://twitter.com/itsBenjyyyy"><img src="images/Twitter" width="50pt" height="50pt"  align="bottom"></a>
+
+  <h1><div>This is<i> Benson</i></div></h1>
+    <h2><div class="edu">EDUCATION BACKGROUND</div></h2>
+    <p class ="one">I am a univerisity student at the
+       Univeristy if Dar-es-salaam, taking a degree in bachelor
+       of science in computer science.</p>
+       <p class ="two">I have also completed my primary school education at Sunray international School
+          and my olevel education and ALevel education at Feza Boy's Secondary and High School.</p>
+          <h2><div>HOBBIES AND INTERESTS</div></h2>
+          <p class="three">One of the things i do enjoy doing the most
+           as a matter of fact fishing activites but for fun ofcourse,
+         playing sports such as football and table tennis, listening to music and playing video games.</p>
+         <p class="four">I am ofcourse a major Leicester City fan, despite the fact that people dont believe me most of the time!!</p>
+
+         <div class="center">
+           <h1 class="center__text glitch is-glitching" data-text="Hover me!">LEICESTER CITY!<br>COME ON YOU LADSS!!!</h1>
+         </div>
+         <p><img src=""</p>
+
+
+
+
+  </body>
+</html>
