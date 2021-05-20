@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,12 +9,15 @@
 body {
   height: 100%;
   background-color: cyan;
-  background-image: url("icons.jpg");
+  background-image: url("images/icons.jpg");
   background-size:
+  margin: 5px auto 15px auto;
 }
 
 body {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -145,36 +149,47 @@ p.one {
    background-color: cyan;
    color:red;
  }
-
+header {
+  background-color: cyan;
+  border-radius: 5px;
+  
+  align-self: center;
+}
+header a :hover {
+  animation-name: zoom;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+    100% {
+      transform: scale(1.15);
+    }
+}
     </style>
   </head>
+  <header>
+    <a href="https://instagram.com/itsBenjyy_"><img src="images/Instagram.png" width="50pt" height="50pt" align="bottom"></a>
+    <a href="https://github.com/fslnhv"><img src="images/Github.png" width="50pt" height="50pt"  align="bottom"></a>
+    <a href="https://facebook.com/Bensongerald"><img src="images/Facebook.png" width="50pt" height="50pt"  align="bottom"></a>
+    <a href="https://twitter.com/itsBenjyyyy"><img src="images/Twitter.png" width="50pt" height="50pt"  align="bottom"></a>
+  </header>
   <body>
-
-    <a href="https://instagram.com/itsBenjyy_"><img src="instagram.png" width="50pt" height="50pt" align="bottom"></a>
-    <a href="https://github.com/fslnhv"><img src="github.png" width="50pt" height="50pt"  align="bottom"></a>
-    <a href="https://facebook.com/Bensongerald"><img src="facebook.png" width="50pt" height="50pt"  align="bottom"></a>
-    <a href="https://twitter.com/itsBenjyyyy"><img src="twitter.png" width="50pt" height="50pt"  align="bottom"></a>
-
-  <h1><div>This is<i> Benson</i></div></h1>
+    <h1><div>This is<i> Benson</i></div></h1>
     <h2><div class="edu">EDUCATION BACKGROUND</div></h2>
     <p class ="one">I am a univerisity student at the
        Univeristy if Dar-es-salaam, taking a degree in bachelor
-       of science in computer science.</p><br>
+       of science in computer science.</p>
        <p class ="two">I have also completed my primary school education at Sunray international School
-          and my olevel education and ALevel education at Feza Boy's Secondary and High School.</p><br>
-          <h2><div>HOBBIES AND INTERESTS</div></h2><br>
+          and my olevel education and ALevel education at Feza Boy's Secondary and High School.</p>
+          <h2><div>HOBBIES AND INTERESTS</div></h2>
           <p class="three">One of the things i do enjoy doing the most
            as a matter of fact fishing activites but for fun ofcourse,
-         playing sports such as football and table tennis, listening to music and playing video games.</p><br>
-         <p class="four">I am ofcourse a major Leicester City fan, despite the fact that people dont believe me most of the time!!</p><br>
+         playing sports such as football and table tennis, listening to music and playing video games.</p>
+         <p class="four">I am ofcourse a major Leicester City fan, despite the fact that people dont believe me most of the time!!</p>
 
          <div class="center">
            <h1 class="center__text glitch is-glitching" data-text="Hover me!">LEICESTER CITY!<br>COME ON YOU LADSS!!!</h1>
          </div>
          <p><img src=""</p>
-
-
-
-
   </body>
 </html>
+
