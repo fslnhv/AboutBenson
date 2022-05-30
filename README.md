@@ -8,7 +8,7 @@
 - ⭐ Fun fact:...I like dealing with backend but also enjoy designing for frontend as a hobby.
 - [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=fslnhv&theme=midnight-purple&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 - [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fslnhv&theme=midnight-purple&hide=issues&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-- <h3 align="center">A passionate frontend developer from India</h3>
+- <h3 align="center">A passionate frontend developer from Tanzania</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
