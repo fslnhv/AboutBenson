@@ -1,6 +1,6 @@
 ### Hi there 👋 It's Benson.
-- 🔭 I'm currently working on Java Backend.
-- 🌱 I'm currently learning Java and javaScript frameworks as well as UI/UX design.
+- 🔭 I'm currently working on React.js and Next.js .
+- 🌱 I'm currently learning Java and JavaScript frameworks as well as UI/UX design.
 - 🤾‍ ♂️I'm looking to collaborate on some Java projects.
 - 💙 I'm looking for help with JavaScript, still a novice here. 😅
 - 🤔 Ask me about anything....well specifically all about tech, I love tech ♥️
